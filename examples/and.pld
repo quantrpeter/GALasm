@@ -1,0 +1,16 @@
+GAL22V10
+AND_Gate
+
+Clock A  B  NC NC NC NC NC NC NC NC GND
+NC    NC NC NC NC NC NC NC NC Z  Y  VCC
+
+
+Y = A * B			; AND gate: Y is high only when both A and B are high
+Z = A + B			; OR gate: Z is high when either A or B is high
+
+
+DESCRIPTION
+Simple 2-input AND gate and 2-input OR gate example using a GAL22V10.
+Inputs:  A (pin 2), B (pin 3)
+Output:  Y (pin 23) - AND combinatorial output
+Output:  Z (pin 22) - OR combinatorial output

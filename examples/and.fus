@@ -1,10 +1,10 @@
 
 
 AR
-  0  ---- ---- ---- ---- ---- ---- x--- ---- ---- --x- ----
+  0  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 23 = Y1           S0 = 1   S1 = 0
-  1  ---- ---- ---- ---- --x- ---- ---- ---- ---- ---- ----
+Pin 23 = Y            S0 = 1   S1 = 1
+  1  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
   2  ---- x--- x--- ---- ---- ---- ---- ---- ---- ---- ----
   3  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   4  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -14,9 +14,9 @@ Pin 23 = Y1           S0 = 1   S1 = 0
   8  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
   9  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 22 = Y2           S0 = 1   S1 = 0
- 10  ---- ---- ---- --x- ---- --x- ---- ---- ---- ---- ----
- 11  ---- ---- ---- x--- ---- ---- ---- ---- ---- ---- ----
+Pin 22 = NC           S0 = 0   S1 = 0
+ 10  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 11  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  12  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  13  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  14  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -27,9 +27,9 @@ Pin 22 = Y2           S0 = 1   S1 = 0
  19  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  20  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 21 = Y3           S0 = 1   S1 = 1
- 21  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 22  ---- ---- ---- --x- ---- --x- ---- ---- ---- ---- ----
+Pin 21 = NC           S0 = 0   S1 = 0
+ 21  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 22  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  23  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  24  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  25  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -42,11 +42,11 @@ Pin 21 = Y3           S0 = 1   S1 = 1
  32  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  33  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 20 = Y4           S0 = 1   S1 = 1
- 34  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----
- 35  ---- ---- ---- ---- x--- ---- ---- ---- ---- ---- ----
- 36  ---- ---- ---- ---- ---- x--- ---- ---- ---- ---- ----
- 37  ---- ---- ---- ---- ---- ---- x--- ---- ---- ---- ----
+Pin 20 = NC           S0 = 0   S1 = 0
+ 34  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 35  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 36  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
+ 37  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  38  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  39  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  40  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -59,7 +59,7 @@ Pin 20 = Y4           S0 = 1   S1 = 1
  47  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  48  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 19 = Enable1      S0 = 0   S1 = 1
+Pin 19 = NC           S0 = 0   S1 = 0
  49  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  50  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  51  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -78,7 +78,7 @@ Pin 19 = Enable1      S0 = 0   S1 = 1
  64  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  65  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 18 = Enable2      S0 = 0   S1 = 1
+Pin 18 = NC           S0 = 0   S1 = 0
  66  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  67  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
  68  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -142,7 +142,7 @@ Pin 15 = NC           S0 = 0   S1 = 0
 120  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 121  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
-Pin 14 = AsyncRe      S0 = 0   S1 = 1
+Pin 14 = NC           S0 = 0   S1 = 0
 122  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 123  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 124  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
@@ -154,5 +154,5 @@ Pin 14 = AsyncRe      S0 = 0   S1 = 1
 130  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
 SP
-131  ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- --x-
+131  xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx xxxx
 
